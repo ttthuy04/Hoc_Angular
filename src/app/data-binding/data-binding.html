@@ -1,0 +1,12 @@
+<!-- Interpolation -->
+<p>Xin chào, {{ username }}!</p>
+
+<!-- Property binding -->
+<input [value]="username" readonly />
+
+<!-- Event binding -->
+<button (click)="changeName()">Đổi tên</button>
+
+<!-- Two-way binding -->
+<input class="two-way-input" [(ngModel)]="value" placeholder="Nhập gì đó..." />
+<p class="two-way-output">Bạn vừa nhập: {{ value }}</p>

@@ -1,0 +1,19 @@
+.two-way-input {
+  padding: 8px 12px;
+  border: 2px solid #1976d2;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  transition: border-color 0.2s;
+}
+.two-way-input:focus {
+  border-color: #42a5f5;
+}
+
+.two-way-output {
+  color: #1976d2;
+  font-weight: bold;
+  margin-top: 4px;
+}
